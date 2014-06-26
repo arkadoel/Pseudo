@@ -19,12 +19,15 @@ typedef  char Caracter;
 typedef  float Real;
 typedef double RealLargo;
 typedef bool    Booleano;
-#define Frase string
+typedef string Frase;
+#define Constante const
 
 #define Usar using 
 #define EspacioDeNombres namespace
 #define Clase  class 
-#define Retorno return
+#define Enumeracion enum
+#define Estructura struct
+#define Retorno return 
 #define INICIO main
 
 //simbolos
@@ -51,11 +54,20 @@ typedef bool    Booleano;
 #define Si if
 #define Sino else
 #define Para for
+#define SegunSea switch
+#define Caso case
+#define PorDefecto default
+#define Rompe break
+#define Saltar_a goto
+
 
 
 #define Publico public:
 #define Privado private:
+#define Protegido protected:
+#define Amigo friend
+#define Externo extern
 #define Estatico static
-#define Procedimiento void
+typedef  void Procedimiento;
 #define Nuevo new
 

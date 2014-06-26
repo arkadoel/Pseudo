@@ -56,9 +56,9 @@ EspacioDeNombres Sistema Contiene
             
             getline(cin, input2);  
             Retorno input2; 
-       FinFuncion
-        
+       FinFuncion       
                     
     Fin
+               
 Fin
 
