@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Ficheros.h</itemPath>
       <itemPath>PseudoBase.h</itemPath>
       <itemPath>Sistema.h</itemPath>
       <itemPath>pseudo.h</itemPath>
@@ -39,6 +40,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Ficheros.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="PseudoBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Sistema.h" ex="false" tool="3" flavor2="0">
@@ -68,6 +71,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Ficheros.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="PseudoBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Sistema.h" ex="false" tool="3" flavor2="0">

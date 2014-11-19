@@ -5,6 +5,7 @@
  * Created on 25 de junio de 2014, 15:51
  */
 #include "pseudo.h"
+#include "Ficheros.h"
 
 Constante Frase fra="";
 
@@ -37,6 +38,16 @@ Entero INICIO () Hacer
     
     myClase mia;
     mia.holar=32;
+    
+    Sistema::Ficheros::FichEntrada f;
+    f.Abrir("/home/fer/actualiza.sh");
+    Frase linea="";
+    Mientras (Negar f.EsFinalFichero()) Hacer
+        linea = f.LeerLinea();
+        Sistema::Salida::EscribirLinea( linea );
+    FinMientras
+    
+    f.Cerrar();
     
     
     Retorno 0;

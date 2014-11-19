@@ -70,4 +70,8 @@ typedef string Frase;
 #define Estatico static
 typedef  void Procedimiento;
 #define Nuevo new
-
+#define Aqui this
+#define Intentar try
+#define Capturar catch
+#define Finalmente finally
+#define Excepcion exception
