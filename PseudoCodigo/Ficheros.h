@@ -9,6 +9,8 @@
 #include <string>
 #include <sstream>
 
+
+
 EspacioDeNombres Sistema Contiene
     EspacioDeNombres Ficheros Contiene
         Clase FichEntrada Contiene

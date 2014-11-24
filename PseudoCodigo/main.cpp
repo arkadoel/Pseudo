@@ -7,6 +7,7 @@
 #include "pseudo.h"
 #include "Ficheros.h"
 
+
 Constante Frase fra="";
 
 Clase myClase Contiene
@@ -26,7 +27,7 @@ FinClase
 /*
  * 
  */
-Entero INICIO () Hacer
+Entero INICIO (Entero argc, Caracter *argv[]) Hacer
 
     Frase h = "hola amigo";
     
@@ -42,7 +43,7 @@ Entero INICIO () Hacer
     Sistema::Ficheros::FichEntrada f;
     f.Abrir("/home/fer/actualiza.sh");
     Frase linea="";
-    Mientras (Negar f.EsFinalFichero()) Hacer
+    Mientras (No f.EsFinalFichero()) Hacer
         linea = f.LeerLinea();
         Sistema::Salida::EscribirLinea( linea );
     FinMientras

@@ -41,7 +41,7 @@ typedef string Frase;
 #define FinProcedimiento }
 #define FinClase };
 #define FinFuncion }
-#define Negar !
+#define No !
 #define Y &&
 #define O ||
 #define Falso false
