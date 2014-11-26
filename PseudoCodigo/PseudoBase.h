@@ -14,6 +14,7 @@ using namespace std;
  * Variable de tipo Entero
  */
 typedef int Entero;
+typedef short EnteroCorto;
 typedef  long EnteroLargo;
 typedef  char Caracter;
 typedef  float Real;
@@ -40,19 +41,20 @@ typedef string Frase;
 #define FinPara }
 #define FinProcedimiento }
 #define FinClase };
+#define FinEstructura };
 #define FinFuncion }
 #define No !
 #define Y &&
 #define O ||
 #define Falso false
-#define Verdadero True
+#define Verdadero true
 
 //bucles
 #define Repetir do{
 #define HastaQue }while
 #define Mientras while
 #define Si if
-#define Sino else
+#define Sino }else{
 #define Para for
 #define SegunSea switch
 #define Caso case
@@ -75,3 +77,4 @@ typedef  void Procedimiento;
 #define Capturar catch
 #define Finalmente finally
 #define Excepcion exception
+

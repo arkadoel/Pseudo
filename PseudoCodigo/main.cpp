@@ -11,8 +11,12 @@
 Constante Frase fra="";
 
 Clase myClase Contiene
-    Publico Real holar = 0.2;
-    Constante Real _MetrosCuadrados_ =0.0;
+    Publico Real holar ;
+    Constante Real _MetrosCuadrados_ = 0.0;
+    
+    myClase() Contiene
+        holar= 0.2;
+    FinProcedimiento
 
     Publico Procedimiento HacerCosas(Frase _frase) Contiene
             
@@ -38,9 +42,9 @@ Entero INICIO (Entero argc, Caracter *argv[]) Hacer
     Sistema::Salida::EscribirLinea("jor" + h);
     
     myClase mia;
-    mia.holar=32;
+    mia.holar = 32;
     
-    Sistema::Ficheros::FichEntrada f;
+    /*Sistema::Ficheros::FichEntrada f;
     f.Abrir("/home/fer/actualiza.sh");
     Frase linea="";
     Mientras (No f.EsFinalFichero()) Hacer
@@ -49,7 +53,12 @@ Entero INICIO (Entero argc, Caracter *argv[]) Hacer
     FinMientras
     
     f.Cerrar();
+     * */
+    Convertir::REDONDEO.ARRIBA;
     
+    Frase f = "32.2";
+    f +="numero convertido" + Convertir::aFrase( Convertir::aEntero(32.5, Convertir::REDONDEO.ARRIBA));
+    Sistema::Salida::EscribirLinea(f);
     
     Retorno 0;
 Fin

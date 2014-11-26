@@ -6,10 +6,21 @@
  */
 
 #include "PseudoBase.h"
-#include <string>
+#include <string.h>
+#include <cstring>
 #include <sstream>
+
+    Booleano FrasesIguales(Frase f1, Frase f2) {
+        Si (strcmp(f1.c_str(), f2.c_str()) == 0) Hacer
+            Retorno Verdadero;
+        Sino
+            Retorno Falso;
+        FinSi
+    FinFuncion
+        
  
 EspacioDeNombres Sistema Contiene
+        
     EspacioDeNombres Salida Contiene
         /**
          * Permite escribir una frase en la consola y saltar a la linea siguiente
